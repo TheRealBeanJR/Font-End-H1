@@ -4,9 +4,12 @@ a {
   display: inline-block;
   border: 1px solid black;
   padding: 2%;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 1%;
+  position:relative;
+}
+
+#producten {
+
 }
 
 nav {
@@ -15,13 +18,13 @@ nav {
 
 li {
   list-style: none;
-
 }
 
-img {
+img, #Logo {
   width: 150px;
   position: absolute;
   left: 50%;
   top: 15%;
   transform: translate(-50%, -50%);
+  border: 0px;
 }
