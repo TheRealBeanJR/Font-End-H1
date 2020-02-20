@@ -1,17 +1,20 @@
-a {
+#left_nav {
   color: black;
   text-decoration: none;
   display:inline-block;
   border: 1px solid black;
   padding: 2%;
   margin: 1%;
-  position:relative;
+
 }
-#winkelwagen
+#right_nav
 {
-  margin-left: 50%;
-}
-#producten {
+  color: black;
+  text-decoration: none;
+  display:inline-block;
+  border: 1px solid black;
+  padding: 2%;
+  margin: 1%;
 
 }
 
