@@ -1,1 +1,22 @@
+html {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(249,241,191);
+}
+/*
+Light color: rgb(249,241,191)
+Medium color: rgb(243,183,91)
+Dark color: rgb(205,128,42)
+*/
+h1 {
+  text-align: center;
+}
 
+.BOTW img {
+  height: 400px;
+}
+
+.BOTW {
+  margin-left: 50%;
+  transform: translate(-50%);
+}

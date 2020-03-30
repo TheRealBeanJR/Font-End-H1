@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: 5%;
+  padding-left: 10%;
+}
+
+.Footer {
+  background-color: rgb(205,128,42);
+  position: fixed;
+  bottom: 0%;
+  width: 100vw;
+}

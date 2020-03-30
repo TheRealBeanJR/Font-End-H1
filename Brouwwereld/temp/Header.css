@@ -1,22 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto:300');
-html
-{
-  background: #ecf0f1;
-}
 
-body
-{
-  margin:0;
-  padding:0;
-}
-h1
-{
-  font-family: 'Roboto';
-  font-weight:100;
-  position:absolute;
-  top:35%;
-  left:48%;
-}
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -42,8 +25,8 @@ h1
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
-.FABMenu
-{
+
+.FABMenu {
   position:sticky;
   top:0px;
   bottom:0;
@@ -52,9 +35,10 @@ h1
   margin-top: 10px;
   width:90%;
   height:200px;
+  z-index: 5;
 }
-.FABMenu input
-{
+
+.FABMenu input {
   position:absolute;
   top: 0%;
   left:50%;
@@ -66,22 +50,27 @@ h1
   opacity:0;
   cursor:pointer;
 }
-.hamburger
-{
+
+.hamburger {
   position:absolute;
-  top:0%;
-  left:50%;
+  top: 0%;
+  left: 50%;
   transform: translateX(-50%);
   width: 80px;
-  height:80px;
+  height: 80px;
   background-color: rgb(205,128,42);
   border-radius:100%;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
   z-index:10;
   cursor:pointer;
 }
-.dots span
-{
+
+#BWLogo {
+  width: 80px;
+  border-radius: 100%;
+}
+
+.dots span {
   position: absolute;
   top: 45%;
   width:8px;
@@ -92,38 +81,35 @@ h1
   transition: all .3s ease-in-out;
 }
 
-.first
-{
+.first {
   margin-left:1em;
 }
-.second
-{
 
+.second {
   margin-left:2.3em;
 }
-.third
-{
+
+.third {
    margin-left:3.6em;
 }
-.FABMenu input:checked ~ .hamburger .dots .first
-{
+
+.FABMenu input:checked ~ .hamburger .dots .first {
   top:20px;
   height:60px;
   transform-origin:top;
   transform:rotate(-45deg);
   transition: all .3s ease-in-out;
-
 }
-.FABMenu input:checked ~ .hamburger .dots .third
-{
+
+.FABMenu input:checked ~ .hamburger .dots .third {
   top:20px;
   height:60px;
   transform-origin:top;
   transform:rotate(45deg);
   transition: all .3s ease-in-out;
 }
-.action_items_bar
-{
+
+.action_items_bar {
   position:absolute;
   top:4.5%;
   left:5%;
@@ -140,12 +126,12 @@ h1
   transform:scaleX(0);
   transition: all .3s ease-in-out;
 }
-.FABMenu input:checked ~ .action_items_bar
-{
+
+.FABMenu input:checked ~ .action_items_bar {
   transform:scaleX(1);
 }
-.action_items span
-{
+
+.action_items span {
   position: absolute;
   top: 25%;
   width:20px;
@@ -154,43 +140,43 @@ h1
   transition: all .2s ease-in-out;
   cursor:pointer;
 }
-.first_item
-{
+
+.first_item {
   left:5%;
 }
-.second_item
-{
+
+.second_item {
   left:30%;
 }
-.third_item
-{
+
+.third_item {
   left:60%;
 }
-.fourth_item
-{
+
+.fourth_item {
   left:85%;
 }
-.FABMenu input:checked ~ .action_items_bar .action_items .first_item
-{
-    opacity:1;
-  transition-delay:.45s;
-}
-.FABMenu input:checked ~ .action_items_bar .action_items .second_item
-{
-    opacity:1;
-  transition-delay:.40s;
 
-}
-.FABMenu input:checked ~ .action_items_bar .action_items .third_item
-{
-    opacity:1;
-  transition-delay:.40s;
-}
-.FABMenu input:checked ~ .action_items_bar .action_items .fourth_item
-{
+.FABMenu input:checked ~ .action_items_bar .action_items .first_item {
     opacity:1;
   transition-delay:.45s;
 }
+
+.FABMenu input:checked ~ .action_items_bar .action_items .second_item {
+    opacity:1;
+  transition-delay:.40s;
+}
+
+.FABMenu input:checked ~ .action_items_bar .action_items .third_item {
+    opacity:1;
+  transition-delay:.40s;
+}
+
+.FABMenu input:checked ~ .action_items_bar .action_items .fourth_item {
+    opacity:1;
+  transition-delay:.45s;
+}
+
 .material-icons:hover {
   background-color: rgb(243,183,91);
 }
