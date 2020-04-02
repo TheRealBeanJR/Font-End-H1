@@ -14,9 +14,11 @@ h1 {
 
 .BOTW img {
   height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+
 }
 
 .BOTW {
-  margin-left: 50%;
-  transform: translate(-50%);
+  width: fit-content;
+  margin: auto;
 }
