@@ -1,0 +1,53 @@
+/*
+Light color: rgb(249,241,191)
+Medium color: rgb(243,183,91)
+Dark color: rgb(205,128,42)
+*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: rgb(249,241,191);
+}
+.midden {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(243,183,91);
+  width: fit-content;
+  height: fit-content;
+}
+.dik {
+  font-weight: bold;
+  background-color:rgb(205,128,42)
+}
+table {
+  width: 75vw;
+}
+table img {
+  height: 100px;
+}
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  padding-top: -45px;
+}
+.row1 {
+  width: 10%;
+  text-align: center;
+}
+.row2 {
+  width: 25%;
+}
+.row3 {
+  width: 10%;
+}
+.row4 {
+  width: 10%;
+}
+.row5 {
+  width: 10%;
+}
